@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    
+      <div id="caja_ingreso">
+
+        <div id="cabecera">          
+          <br>
+         <h1>UnaHur</h1> 
+        </div>
+        <div>
+          <input id="txb_usuario" type="text"  pattern="\d{3}|\d{8}"  maxlength="8" required placeholder="Usuario" />
+        </div>
+  
+        <div>
+          <input id="txb_contraseña" type="password" required placeholder="Contraseña" />
+        </div>
+  
+        
+  
+        <div class="dv_link_contraseña">
+          <button id="btn_ingresar" class="button">Ingresar</button>
+          <a href="" target="_blank">recuperar contraseña</a>
+          <br>
+          <a  href="" target="_blank">crear usuario</a>
+        </div>
+  
+    
+        <p id="p_error"></p>
+      </div>
+ 
+
+  </body>
+</html>
+<script src="./login.js"></script>
